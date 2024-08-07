@@ -28,11 +28,13 @@ def main():
         print("You cannot vote.")
         return
 
+    # Ask the user if they have been convicted of a felony
     felony = input("Have you been convicted of a felony: yes/no? ")
     if felony == "yes":
         print("You cannot vote.")
         return
 
+    # Ask the user if they are registered to vote
     registration = input("Are you registered to vote: yes/no? ")
     if registration == "no":
         print("You cannot vote.")
