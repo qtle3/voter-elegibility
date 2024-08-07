@@ -7,6 +7,8 @@ This program determines if a person is eligible to vote in the US elections. It 
 3. **State Residency**: Verifies if the user meets their state's residency requirements.
 4. **Felony Status**: Asks if the user is a convicted felon, as this may affect eligibility.
 5. **Registration**: Asks if the user is registered to vote.
+
+
 Based on these inputs, the program will inform the user whether they can vote.
 
 ## Key Concepts Covered
